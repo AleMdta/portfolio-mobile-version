@@ -54,12 +54,11 @@ nav img {
 
 .social-media-links {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   gap: 5%;
-  padding-left: 100px;
 }
 
-.button {
+.arrow {
   display: flex;
   justify-content: center;
   margin-top: 70px;
