@@ -12,13 +12,16 @@
   margin-right: 38px;
 }
 
-.personal-presentation h1 {
+h1 {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 40px;
   text-align: center;
   line-height: 52px;
   font-style: normal;
+}
+
+.personal-presentation h1 {
   padding-top: 20px;
   margin-bottom: 5px;
 }
@@ -59,4 +62,13 @@
   text-align: center;
   margin-top: 50px;
   margin-bottom: 60px;
+}
+
+.works h1 {
+  margin-left: 28px;
+  margin-right: 28px;
+}
+
+.work-n {
+  border-radius: 10px;
 }
