@@ -1,8 +1,15 @@
 .headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-image: url("./images/header-illsutration-mobile.svg");
   background-repeat: no-repeat;
   background-size: 100%;
-  position: absolute;
+}
+
+.toolbar {
+  text-align: right;
+  margin-right: 38px;
 }
 
 .personal-presentation h1 {
@@ -12,10 +19,8 @@
   text-align: center;
   line-height: 52px;
   font-style: normal;
-  margin-top: 58px;
-  margin-left: 27px;
-  margin-right: 27px;
-  margin-bottom: 0%;
+  padding-top: 20px;
+  margin-bottom: 5px;
 }
 
 .personal-presentation p {
@@ -25,13 +30,21 @@
   text-align: center;
   line-height: 28px;
   font-style: normal;
-  margin-left: 27px;
-  margin-right: 27px;
-  margin-top: 15px;
+  margin: 0 27px;
 }
 
-.social-media ul {
+.social-media-links {
+  display: flex;
+  justify-content: center;
   list-style: none;
+  gap: 15px;
+  padding-left: 0%;
+  margin-top: 8px;
+}
+
+.social-media-links li a img {
+  width: 19px;
+  height: 20px;
 }
 
 .color-blue {
@@ -42,25 +55,8 @@
   color: #36b37e;
 }
 
-nav {
-  display: flex;
-  justify-content: end;
-}
-
-nav img {
-  margin-right: 38px;
-  margin-top: 40px;
-}
-
-.social-media-links {
-  display: flex;
-  justify-content: center;
-  gap: 5%;
-}
-
 .arrow {
-  display: flex;
-  justify-content: center;
-  margin-top: 70px;
+  text-align: center;
+  margin-top: 50px;
   margin-bottom: 60px;
 }
