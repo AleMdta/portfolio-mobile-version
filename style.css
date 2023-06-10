@@ -21,17 +21,19 @@ h1 {
   line-height: 52px;
   font-style: normal;
 }
+p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  text-align: center;
+  font-style: normal;
+}
 .personal-presentation h1 {
   padding-top: 20px;
   margin-bottom: 5px;
 }
 .personal-presentation p {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 19px;
-  text-align: center;
   line-height: 28px;
-  font-style: normal;
   margin: 0px 27px;
 }
 .social-media-links {
@@ -135,3 +137,121 @@ h1 {
   color: #FFFFFF;
   margin-bottom: 24px;
 }
+.about-myself {
+  background-image: url("./images/illustration\ 1-\ about\ me-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 1435px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.text {
+  text-align: center;
+  background-image: url("./images/illustration\ 2-about\ me\ mobile.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.about-myself p {
+  line-height: 32px;
+  margin: 19px;
+}
+.about-myself h1 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.about-myself button {
+  text-align: center;
+  background-color: #36b37e;
+  width: 153px;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid #36b37e;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-bottom: 0px;
+}
+
+.languages {
+  background-image: url("./images/icon-languages.svg");
+  background-position: top 20px center;
+  background-repeat: no-repeat;
+  border: 1px solid #C1C7D0;
+  height: 316px;
+  width: 327px;
+  margin: 25px auto 0;
+  border-radius: 8px;
+  background-color:#EBF0EE;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  }
+
+.lang {
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #344563;
+  margin-top: 40%;
+  }
+
+  .lang-list{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #36B37E ;
+  font-family: 'Inter';
+  font-weight: 600;
+  line-height: 16px;
+  font-size: 12px;
+  padding: 12px;
+  margin-top: -5%;
+  gap: 8px;
+}
+
+.lang-list li{
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 12px;  
+}
+
+.framework{
+  background-image: url("./images/icon-frameworks.svg");
+  background-position: top 20px center;
+  background-repeat: no-repeat;
+  border: 1px solid #C1C7D0;
+  height: 316px;
+  width: 327px;
+  margin: 25px auto 0;
+  border-radius: 8px;
+  background-color:#EBF0EE;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills{
+  background-image: url("./images/icon-skills.svg");
+  background-position: top 20px center;
+  background-repeat: no-repeat;
+  border: 1px solid #C1C7D0;
+  height: 316px;
+  width: 327px;
+  margin: 25px auto 0;
+  border-radius: 8px;
+  background-color:#EBF0EE;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+  
