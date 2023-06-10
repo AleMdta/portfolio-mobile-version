@@ -46,6 +46,7 @@ HTML and CSS
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
     <li><a href = "https://developer.mozilla.org/en-US/docs/Web/CSS">CSS3</a></li>
     <li><a href = "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox">Flexbox</a></li>
+    <li><a href = "https://www.w3schools.com/cssref/pr_grid.php">Grid</a></li>
   </ul>
 
 </details>
@@ -53,6 +54,9 @@ HTML and CSS
 ### Key Features <a name="key-features"></a>
 
 -My description
+-Projects
+-Link to my resume
+-My knowledge
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,9 +104,10 @@ Clone this repository to your desired folder:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] Projects section
-- [ ] Skills section
-- [ ] Contact section
+- [ ] Complete projects section
+- [ ] Complete skills section
+- [ ] Complete Contact section
+- [ ] Responsiveness
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
