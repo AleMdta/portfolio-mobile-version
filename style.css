@@ -24,21 +24,18 @@ h1 {
   font-style: normal;
 }
 
-p {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 19px;
-  text-align: center;
-  font-style: normal;
-}
-
 .personal-presentation h1 {
   padding-top: 20px;
   margin-bottom: 5px;
 }
 
 .personal-presentation p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  text-align: center;
   line-height: 28px;
+  font-style: normal;
   margin: 0 27px;
 }
 
@@ -71,31 +68,38 @@ p {
 }
 
 .works {
-  margin-top: 0;
-  text-align: center;
+  display: grid;
+  justify-content: center;
+  gap: 24px;
 }
 
-.title {
+.works-title {
+  width: 327px;
+  height: 125px;
   background-image: url("./images/Indicator.svg");
   background-repeat: no-repeat;
   background-position: bottom;
-  width: 327px;
-  height: 125px;
-  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.works-title h2 {
   margin-top: 0;
-  margin-bottom: 62px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  font-style: normal;
+  text-align: center;
 }
 
 .work {
-  display: grid;
-  align-content: end;
+  display: flex;
+  align-items: flex-end;
   width: 327px;
   height: 474px;
   border: 1px solid #d0d9d4;
   background-color: #ebf0ee;
   border-radius: 10px;
-  margin: 0 auto;
-  margin-bottom: 24px;
 }
 
 .white-area {
@@ -106,6 +110,15 @@ p {
   text-align: center;
 }
 
+.project-lang-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
 .white-area h4 {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
@@ -114,15 +127,6 @@ p {
   text-align: center;
   color: #3a4a42;
   margin: 16px;
-}
-
-.project-lang-list {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  list-style: none;
-  justify-content: space-between;
-  padding-left: 0;
 }
 
 .project-lang-list li {
@@ -150,35 +154,44 @@ p {
   margin-bottom: 24px;
 }
 
-.about-myself {
+.about-me {
   background-image: url("./images/illustration\ 1-\ about\ me-mobile.svg");
   background-repeat: no-repeat;
   background-position: top right;
-  height: 1435px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: end;
+  margin-top: 10px;
 }
 
-.text {
+.about-me-title {
   text-align: center;
   background-image: url("./images/illustration\ 2-about\ me\ mobile.svg");
   background-repeat: no-repeat;
   background-position: left bottom;
+  padding-top: 20px;
 }
 
-.about-myself p {
-  line-height: 32px;
-  margin: 19px;
-}
-
-.about-myself h1 {
-  margin-top: 10px;
-  margin-bottom: 5px;
-}
-
-.about-myself button {
+.about-me-title h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  font-style: normal;
   text-align: center;
+}
+
+.about-me-title p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.about-me-title button {
   background-color: #36b37e;
   width: 153px;
   height: 48px;
@@ -189,10 +202,20 @@ p {
   line-height: 24px;
   font-weight: 500;
   color: #fff;
-  margin-bottom: 0;
 }
 
-.languages {
+.about-me-list {
+  width: 327px;
+  height: 998px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+
+  /* gap: 12px; */
+}
+
+.list1 {
   background-image: url("./images/icon-languages.svg");
   background-position: top 20px center;
   background-repeat: no-repeat;
@@ -205,17 +228,54 @@ p {
   text-align: center;
   display: flex;
   flex-direction: column;
-}
-
-.lang {
-  display: flex;
-  justify-content: center;
+  justify-content: end;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
   color: #344563;
-  margin-top: 40%;
+}
+
+.list2 {
+  background-image: url("./images/icon-frameworks.svg");
+  background-position: top 20px center;
+  background-repeat: no-repeat;
+  border: 1px solid #c1c7d0;
+  height: 316px;
+  width: 327px;
+  margin: 25px auto 0;
+  border-radius: 8px;
+  background-color: #ebf0ee;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #344563;
+}
+
+.list3 {
+  background-image: url("./images/icon-skills.svg");
+  background-position: top 20px center;
+  background-repeat: no-repeat;
+  border: 1px solid #c1c7d0;
+  height: 316px;
+  width: 327px;
+  margin: 25px auto 0;
+  border-radius: 8px;
+  background-color: #ebf0ee;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #344563;
 }
 
 .lang-list {
@@ -230,7 +290,7 @@ p {
   line-height: 16px;
   font-size: 12px;
   padding: 12px;
-  margin-top: -5%;
+  margin-top: 12px;
   gap: 8px;
 }
 
@@ -240,32 +300,6 @@ p {
   padding: 12px;
 }
 
-.framework {
-  background-image: url("./images/icon-frameworks.svg");
-  background-position: top 20px center;
-  background-repeat: no-repeat;
-  border: 1px solid #c1c7d0;
-  height: 316px;
-  width: 327px;
-  margin: 25px auto 0;
-  border-radius: 8px;
-  background-color: #ebf0ee;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.skills {
-  background-image: url("./images/icon-skills.svg");
-  background-position: top 20px center;
-  background-repeat: no-repeat;
-  border: 1px solid #c1c7d0;
-  height: 316px;
-  width: 327px;
-  margin: 25px auto 0;
-  border-radius: 8px;
-  background-color: #ebf0ee;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
+.languages {
+  margin-bottom: 52px;
 }
