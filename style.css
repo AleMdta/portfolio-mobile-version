@@ -303,3 +303,13 @@ h1 {
 .languages {
   margin-bottom: 52px;
 }
+
+.get-in-touch {
+  display: flex
+  flex-direction: column;
+}
+
+.form-info {
+  list-style: none;
+  margin-top: 18px;
+}
