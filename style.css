@@ -305,11 +305,28 @@ h1 {
 }
 
 .get-in-touch {
-  display: flex
+  display: flex;
   flex-direction: column;
+
 }
 
-.form-info {
+.get-in-touch p {
+  font-family: 'Inter',sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  font-style: normal;
+  line-height: 52px;  
+  text-align: center;
+}
+
+.form-info li{
   list-style: none;
-  margin-top: 18px;
+  margin-top: 24px;
+  position: relative;
+  right: 24px;
+}
+
+.form-info li input {
+  width: 327px;
+  height: 48px;
 }
