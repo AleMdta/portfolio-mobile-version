@@ -4,7 +4,7 @@
   <img src="Personal_Logo_WhiteS.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio</b></h3>
+  <h3><b>Portfolio Mobile Version</b></h3>
 
 </div>
 
@@ -37,7 +37,7 @@ This is a tool to present myself as a software developer.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-HTML and CSS
+HTML, CSS and Formspree
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -47,6 +47,8 @@ HTML and CSS
     <li><a href = "https://developer.mozilla.org/en-US/docs/Web/CSS">CSS3</a></li>
     <li><a href = "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox">Flexbox</a></li>
     <li><a href = "https://www.w3schools.com/cssref/pr_grid.php">Grid</a></li>
+    <li><a href = "https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form">Forms</a></li>
+    <li><a href = "https://formspree.io/html/">Formspree</a></li>
   </ul>
 
 </details>
@@ -57,6 +59,8 @@ HTML and CSS
 -Projects
 -Link to my resume
 -My knowledge
+-Get in touch
+-Social media
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,7 +110,6 @@ Clone this repository to your desired folder:
 
 - [ ] Complete projects section
 - [ ] Complete skills section
-- [ ] Complete Contact section
 - [ ] Responsiveness
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
