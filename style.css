@@ -364,8 +364,8 @@ textarea::placeholder {
 
   .about-me {
     background:
-      url("./images/illustration\ 1-\ about\ me-mobile.svg") no-repeat right top,
-      url("./images/illustration\ 2-about\ me\ mobile.svg") no-repeat left top 28%;
+      url("./images/illustration-1") no-repeat right top,
+      url("./images/illustration-2-about-me\ mobile.svg me\ mobile.svg") no-repeat left top 28%;
     text-align: center;
     padding-top: 10%;
     padding-left: 0;
@@ -458,14 +458,14 @@ textarea::placeholder {
   }
 
   .about-me {
-    background: url("./images/illustration-about\ me-1-desktop.svg") no-repeat right top, url("./images/illustration-about-me-2-desktop.svg") no-repeat left top 30%;
+    background: url("./images/illustration-about-me-1-desktop.svg") no-repeat right top, url("./images/illustration-about-me-2-desktop.svg") no-repeat left top 30%;
   }
 
   .contact-me {
     background:
       url("./images/illustration-1-contact-form-desktop.svg") no-repeat left bottom 5%,
       url("./images/illustration-2-contact-form-desktop.svg") no-repeat left 30% bottom 10%,
-      url("./images/contact\ form-illustratoin-3-desktop.svg") no-repeat right bottom;
+      url("./images/contact-form-illustratoin-3-desktop.svg") no-repeat right bottom;
     margin-left: 5%;
     margin-right: 5%;
     display: flex;
