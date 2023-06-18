@@ -11,6 +11,7 @@
 #title-green {
   color: #36b37e;
 }
+
 .social-media-links {
   display: flex;
   justify-content: center;
@@ -377,6 +378,7 @@ textarea::placeholder {
     background: url("./images/illustration\ 1-\ about\ me-mobile.svg") no-repeat right top,
     url("./images/illustration\ 2-about\ me\ mobile.svg") no-repeat left top 28%;
   }
+  
   .contact-me {
     background: url("./images/illustration-contact-form.svg") no-repeat right bottom;
   }
