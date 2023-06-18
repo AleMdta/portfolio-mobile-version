@@ -360,13 +360,12 @@ textarea::placeholder {
   padding-right: 0;
 }
 
-
 .b-action:hover {
   background: #008552;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .container {
     background-image: url("./images/header-illsutration-mobile.svg");
     background-repeat: no-repeat;
@@ -378,7 +377,7 @@ textarea::placeholder {
     background: url("./images/illustration\ 1-\ about\ me-mobile.svg") no-repeat right top,
     url("./images/illustration\ 2-about\ me\ mobile.svg") no-repeat left top 28%;
   }
-  
+
   .contact-me {
     background: url("./images/illustration-contact-form.svg") no-repeat right bottom;
   }
@@ -414,7 +413,7 @@ textarea::placeholder {
     font-style: normal;
   }
 
-  .works{
+  .works {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: repeat(6,auto);
@@ -424,7 +423,7 @@ textarea::placeholder {
     margin-right: 5%;
   }
 
-  .about-me-list{
+  .about-me-list {
     display: grid;
     row-gap: 0.7%;
     grid-template-columns: 100%;
@@ -467,7 +466,6 @@ textarea::placeholder {
     padding-left: 0;
     padding-right: 0;
   }
-  
 }
 
 @media (min-width: 768px) {
@@ -475,7 +473,7 @@ textarea::placeholder {
     background: url("./images/Header-llustration-desktop.svg") no-repeat center top;
   }
 
-  .about-me{
+  .about-me {
     background: url("./images/illustration-about\ me-1-desktop.svg") no-repeat right top, url("./images/illustration-about-me-2-desktop.svg") no-repeat left top 30%;
   }
 
@@ -504,5 +502,4 @@ textarea::placeholder {
   form {
     min-width: 58.5%;
   }
-
 }
