@@ -59,7 +59,7 @@ h1 {
   text-align: center;
 }
 
-.works{
+.works {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto;
