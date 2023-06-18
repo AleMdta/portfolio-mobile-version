@@ -100,7 +100,7 @@ h1 {
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
-  color: #3A4A42;
+  color: #3a4a42;
   margin-top: 5%;
   margin-left: 4.3%;
   margin-right: 4.3%;
@@ -172,10 +172,6 @@ h1 {
 }
 
 .about-me-list {
-  margin-top: 10%;
-}
-
-.about-me-list {
   display: grid;
   column-gap: 1.7%;
   grid-template-columns: 1fr 1fr 1fr;
@@ -184,13 +180,12 @@ h1 {
   padding: 0;
   margin-left: 5%;
   margin-right: 5%;
+  margin-top: 10%;
 }
 
 .lang-list {
   list-style: none;
-  padding: 0;
   display: flex;
-  list-style: none;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -273,12 +268,6 @@ h1 {
   font-size: 24px;
   line-height: 32px;
   color: #344563;
-}
-
-.contact-me {
-  margin-left: 5%;
-  margin-right: 5%;
-  display: flex;
 }
 
 .contact-me p {
@@ -374,12 +363,23 @@ textarea::placeholder {
   }
 
   .about-me {
-    background: url("./images/illustration\ 1-\ about\ me-mobile.svg") no-repeat right top,
-    url("./images/illustration\ 2-about\ me\ mobile.svg") no-repeat left top 28%;
+    background:
+      url("./images/illustration\ 1-\ about\ me-mobile.svg") no-repeat right top,
+      url("./images/illustration\ 2-about\ me\ mobile.svg") no-repeat left top 28%;
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .contact-me {
     background: url("./images/illustration-contact-form.svg") no-repeat right bottom;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
   }
 
   .recent-works {
@@ -416,9 +416,9 @@ textarea::placeholder {
   .works {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(6,auto);
+    grid-template-rows: repeat(6, auto);
     row-gap: 0.6%;
-    margin-bottom: 40%; 
+    margin-bottom: 40%;
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -427,7 +427,7 @@ textarea::placeholder {
     display: grid;
     row-gap: 0.7%;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(3,auto);
+    grid-template-rows: repeat(3, auto);
     list-style: none;
     padding: 0;
     margin-left: 5%;
@@ -438,7 +438,7 @@ textarea::placeholder {
     display: flex;
     justify-content: space-between;
   }
-  
+
   .contact-me p {
     font-weight: 700;
     font-size: 40px;
@@ -447,24 +447,8 @@ textarea::placeholder {
     line-height: 52px;
   }
 
-  .contact-me {
-    margin-left: 5%;
-    margin-right: 5%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-  }
-
   #footer-line {
     display: none;
-  }
-
-  .about-me {
-    text-align: center;
-    padding-top: 10%;
-    padding-left: 0;
-    padding-right: 0;
   }
 }
 
@@ -478,9 +462,16 @@ textarea::placeholder {
   }
 
   .contact-me {
-    background: url("./images/illustration-1-contact-form-desktop.svg") no-repeat left bottom 5%, 
-    url("./images/illustration-2-contact-form-desktop.svg") no-repeat left 30% bottom 10%,
-    url("./images/contact\ form-illustratoin-3-desktop.svg") no-repeat right bottom;
+    background:
+      url("./images/illustration-1-contact-form-desktop.svg") no-repeat left bottom 5%,
+      url("./images/illustration-2-contact-form-desktop.svg") no-repeat left 30% bottom 10%,
+      url("./images/contact\ form-illustratoin-3-desktop.svg") no-repeat right bottom;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
   }
 
   #menu-image {
